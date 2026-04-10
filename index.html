@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>크래프터 온제 포트폴리오</title>
+    <meta name="description" content="네이버 블로그, 스레드 등 다양한 채널을 운영하는 페이퍼밴드 공예작가의 포트폴리오입니다.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Crafter Onje<span>.</span></a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="hero fade-in">
+            <!-- 비디오 배경 추가 -->
+            <div class="video-background">
+                <video autoplay muted loop playsinline>
+                    <source src="background.mp4" type="video/mp4">
+                    브라우저가 비디오 태그를 지원하지 않습니다.
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+
+            <div class="container">
+                <div class="hero-content">
+                    <div class="profile-container">
+                        <img src="profile.png" alt="프로필 사진" class="profile-image">
+                    </div>
+                    <div class="hero-text">
+                        <h1 class="title">"전통의 엮음 방식을<br><span>현대적인 디자인</span>으로 재해석하다"</h1>
+                        <div class="subtitle">
+                            <p><strong>크래프터 온제</strong>는 친환경 소재인 페이퍼밴드를 활용하여 현대적인 라이프스타일에 어울리는 공예 오브제를 제작합니다.</p>
+                            <br>
+                            <p>전통적인 라탄/바구니 직조 기법을 베이스로 하되, 종이 특유의 다채로운 색감과 질감을 극대화하여 독창적인 디자인을 선보입니다. 가벼움 속에 숨겨진 튼튼한 내구성, 그리고 시간이 흐를수록 멋이 더해지는 페이퍼밴드 공예의 정수를 만나보실 수 있습니다.</p>
+                            <br>
+                            <p>
+                                Premium Quality: 고품질 친환경 밴드 사용<br>
+                                Handcrafted: 전 과정 100% 수공예 제작<br>
+                                Custom Design: 공간에 맞춘 오더메이드 작업
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section container fade-in">
+            <h2 class="section-title">My Works</h2>
+            <div class="portfolio-grid">
+                <!-- 갤러리 링크 -->
+                <a href="#" class="portfolio-card glass-panel" target="_blank">
+                    <img src="갤러리카드.jpg" alt="갤러리" class="card-image">
+                    <h3>갤러리</h3>
+                    <p>다양한 페이퍼밴드 공예 작품 갤러리</p>
+                    <div class="arrow-icon">→</div>
+                </a>
+
+                <!-- 미디어/영상 링크 -->
+                <a href="#" class="portfolio-card glass-panel" target="_blank">
+                    <img src="영상카드.png" alt="제작과정 영상" class="card-image">
+                    <h3>제작과정 영상</h3>
+                    <p>페이퍼밴드 제작과정</p>
+                    <div class="arrow-icon">→</div>
+                </a>
+
+                <!-- 글/블로그 링크 -->
+                <a href="#" class="portfolio-card glass-panel" target="_blank">
+                    <img src="블로그카드.jpg" alt="Crafter 온제의 블로그" class="card-image">
+                    <h3>Crafter 온제의<br>블로그</h3>
+                    <p>오브제 스토리 및 정보공유</p>
+                    <div class="arrow-icon">→</div>
+                </a>
+
+                <!-- SNS/스레드 링크 -->
+                <a href="#" class="portfolio-card glass-panel" target="_blank">
+                    <img src="인스타카드.png" alt="Crafter 온제의 SNS" class="card-image">
+                    <h3>Crafter 온제의 SNS</h3>
+                    <p>스레드,인스타그램 등 소셜 미디어 소통</p>
+                    <div class="arrow-icon">→</div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer glass-panel fade-in">
+        <div class="container footer-content">
+            <h2 class="section-title">Let's Connect</h2>
+            <p>협업 문의나 비즈니스 제안은 언제든 환영합니다.</p>
+            <a href="mailto:craftonj06@gmail.com" class="btn-primary">이메일 보내기</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
